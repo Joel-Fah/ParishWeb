@@ -1,0 +1,192 @@
+@import url("../font/poppins.ttf");
+
+*{
+    font-family: poppins;
+}
+
+.main-title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.banner-image {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+}
+
+.text-large {
+  font-size: larger;
+  font-weight: bolder;
+}
+.text-color-odd{
+    color: #4a1c1c;
+}
+
+.text-color-even{
+    color: #ffffff;
+}
+
+.quote {
+  margin-top: 90px;
+}
+
+.color {
+  background-color: #4a1c1c;
+}
+
+.color-other {
+  background-color: #55565A;
+}
+
+.padding-bottom{
+    padding-bottom: 5%;
+}
+
+.btn-read-more-odd{
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #6e4949;
+    box-shadow: -5px 5px 15px #6e4949;
+}
+.btn-read-more-odd:hover{
+    color: #4a1c1c;
+    border-color: #6e4949;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+.btn-read-more-even{
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    color: #6e4949;
+    font-weight: bold;
+    background-color: #dbd2d2;
+    box-shadow: -5px 5px 15px #dbd2d2;
+}
+.btn-read-more-even:hover{
+    color: #dbd2d2;
+    border-color: #dbd2d2;
+    background-color: transparent;
+    box-shadow: none;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.avatar{
+    font-size: 200px;
+    position: relative;
+    left: 10vw;
+}
+
+.btn-register i{
+    font-size: 50px;
+}
+.btn-register a{
+    color: inherit;
+}
+.btn-register button{
+    width: 55%;
+    height: 50px;
+    padding: 3px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: #6e4949;
+}
+.btn-register{
+    position: relative;
+    left: 4vw;
+}
+
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg-odd {
+  background: #dbd2d2;
+}
+
+.section-bg-even {
+  background: #6e4949;
+}
+
+.section-bg-other {
+  background: #aaabad;
+}
+
+.section-title {
+  padding-bottom: 30px;
+}
+
+.section-title-odd h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #6e4949;
+}
+
+.section-title-even h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #ffffff;
+}
+
+.section-title-odd h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #6e4949;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title-even h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #ffffff;
+  bottom: 0;
+  left: 0;
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+/* ----------------- Footer --------------------- */
+.foot-title{
+    border-bottom: 3px #ffffff solid;
+}
+
+.foot-quote{
+    font-size: 11pt;
+}
+
+footer .container-fluid{
+    padding: 3%;
+}
+
+footer .foot-caption{
+    text-align: center;
+    letter-spacing: 5px;
+    opacity: 0.4;
+}

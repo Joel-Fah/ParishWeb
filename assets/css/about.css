@@ -1,0 +1,10 @@
+@import url("../font/poppins.ttf");
+
+*{
+    font-family: poppins;
+}
+
+.banner-image {
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+  }
